@@ -17,9 +17,64 @@ div{
  background-color: floralwhite;
 color: burlywood;
 width: 384px;
+text-align: center;
+border-radius: 12px;
+padding: 40px;
+
 }
+
+img{
+width: 88px;
+border-radius: 50%;
+margin-bottom: 24px;
+}
+
+
+strong{
+    color: rgb(131, 116, 94);
+    font-size: 14px;
+}
+
+
+p{
+    margin-block: 24px;
+    font-size: 14px;
+}
+
+
+a{
+    display: block;
+    color: tan;
+  margin-bottom: 16px;
+padding: 12px;
+color: rgb(145, 104, 52);
+text-decoration: none;
+font-size: 14px;
+font-weight: 700;
+border-radius: 8px;
+}
+
+h1{
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+
 
 body{
     height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul, li{
+    list-style: none;
+}
+
+a:hover{
+    background-color: rgb(94, 59, 53);
+    color: coral;
+    transition: 0.4s;
 }
 
